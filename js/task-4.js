@@ -14,6 +14,8 @@ const eventFunction = (event) => {
     return;
   }
 
+  console.log(formData);
+
   form.reset();
 };
 
